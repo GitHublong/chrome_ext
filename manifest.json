@@ -1,0 +1,14 @@
+{
+"name": "ss Extension",
+"version": "0.0.1",
+"manifest_version": 2,
+"description": "xxl usual tools",
+"icons": { "128": "images/bg.jpg"},
+//"background_page": "htmls/bg.html",
+"permissions": ["http://*.google.com/", "https://*.google.com/"],
+"browser_action": {
+"default_title": "",
+"default_icon": "images/bg.jpg",
+"default_popup": "htmls/popup.html"
+}
+}
